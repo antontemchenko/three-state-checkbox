@@ -1,0 +1,106 @@
+.tri-sta-che {
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition: 0.2s ease-out;
+    -moz-transition: 0.2s ease-out;
+    -ms-transition: 0.2s ease-out;
+    -o-transition: 0.2s ease-out;
+    transition: 0.2s ease-out;
+    position: relative;
+}
+
+.tri-sta-che.checked {
+    -webkit-transform: rotateZ(30deg);
+    -moz-transform: rotateZ(30deg);
+    -ms-transform: rotateZ(30deg);
+    -o-transform: rotateZ(30deg);
+    transform: rotateZ(30deg);
+}
+
+.tri-sta-che.unchecked {
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+}
+
+.md {
+    width: 20px;
+    height: 20px;
+}
+
+.tri-sta-che > .tsc-b {
+    position: absolute;
+    -webkit-transition: 0.2s ease-out;
+    -moz-transition: 0.2s ease-out;
+    -ms-transition: 0.2s ease-out;
+    -o-transition: 0.2s ease-out;
+    transition: 0.2s ease-out;
+
+}
+.tri-sta-che.md > .tsc-b.tsc-b-l, .tri-sta-che.md > .tsc-b.tsc-b-r {
+    width: 3px;
+}
+.tri-sta-che.md > .tsc-b.tsc-b-t, .tri-sta-che.md > .tsc-b.tsc-b-b {
+    height: 3px;
+}
+
+.tri-sta-che.clear > .tsc-b {
+    background: #ccc;
+}
+
+.tri-sta-che.checked > .tsc-b {
+    background: #56c254;
+}
+
+.tri-sta-che.unchecked > .tsc-b {
+    background: #c24f4c;
+}
+
+.tri-sta-che > .tsc-b.tsc-b-t {
+    top: 0;
+    width: 100%;
+}
+.tri-sta-che > .tsc-b.tsc-b-l {
+    left: 0;
+    height: 100%;
+}
+.tri-sta-che > .tsc-b.tsc-b-r {
+    right: 0;
+    height: 100%;
+}
+.tri-sta-che > .tsc-b.tsc-b-b {
+    bottom: 0;
+    width: 100%;
+}
+.tri-sta-che.checked > .tsc-b.tsc-b-t {
+    transform-origin: 100% 100%;
+    transform: rotateZ(-90deg) scaleX(0.7);
+    opacity:.5;
+}
+.tri-sta-che.checked > .tsc-b.tsc-b-l {
+    transform-origin: 100% 100%;
+    transform: rotateZ(90deg) scaleY(0.6) translateY(-25%);
+    opacity:.5;
+}
+.tri-sta-che.checked > .tsc-b.tsc-b-b {
+    transform-origin: 100% 100%;
+    transform: scaleX(0.7);
+}
+.tri-sta-che.unchecked > .tsc-b.tsc-b-l {
+    transform-origin: 100% 9%;
+    transform: rotateZ(-45deg);
+}
+.tri-sta-che.unchecked > .tsc-b.tsc-b-r {
+    transform-origin: 0 95%;
+    transform: rotateZ(-45deg);
+}
+.tri-sta-che.unchecked > .tsc-b.tsc-b-t {
+    transform-origin: 100% 100%;
+    transform: rotateZ(0deg);
+}
+.tri-sta-che.unchecked > .tsc-b.tsc-b-b {
+    transform-origin: 0 100%;
+    transform: rotateZ(-45deg);
+}
