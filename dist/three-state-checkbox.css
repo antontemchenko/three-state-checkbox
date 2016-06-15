@@ -105,6 +105,6 @@
     transform: rotateZ(-45deg);
 }
 .tri-sta-che.unchecked > .tsc-b.tsc-b-b {
-    transform-origin: 0 100%;
+    transform-origin: 5% -5%;
     transform: rotateZ(-45deg);
 }
