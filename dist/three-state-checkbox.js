@@ -4,17 +4,17 @@ angular.module("threeStateCheckbox", [])
         var dirObj = {
             restrict: "A",
             transclude: true,
-            require: ['ngModel'],
+            require: 'ngModel',
             scope: {
                 'options': "@options",
                 'ngChange': "&ngChange",
                 'ngModel': "=ngModel"
             },
             template:'<span class="tsc-b tsc-b-t"></span>'+
-                    '<span class="tsc-b tsc-b-l"></span>'+
-                    '<span class="tsc-b tsc-b-r"></span>'+
-                    '<span class="tsc-b tsc-b-b"></span>',
-            link: function(scope, element, attr){
+            '<span class="tsc-b tsc-b-l"></span>'+
+            '<span class="tsc-b tsc-b-r"></span>'+
+            '<span class="tsc-b tsc-b-b"></span>',
+            link: function(scope, element, attrs, ngModel){
                 config.set(scope.options);
                 var states = [true, false, null];
                 var classNames = ["checked", "unchecked", "clear"];
@@ -25,8 +25,8 @@ angular.module("threeStateCheckbox", [])
                             st = states[(i+1)%3];
                         }
                     });
-                    scope.ngModel = st;
-                    scope.ngChange();
+                    ngModel.$setViewValue(st);
+                    ngModel.$render();
                 };
                 scope.tscClassName = function(){
                     var className;
