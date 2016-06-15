@@ -26,6 +26,7 @@ angular.module("threeStateCheckbox", [])
                         }
                     });
                     scope.ngModel = st;
+                    scope.ngChange();
                 };
                 scope.tscClassName = function(){
                     var className;

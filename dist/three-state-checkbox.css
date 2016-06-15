@@ -1,6 +1,7 @@
 .tri-sta-che {
     display: inline-block;
     cursor: pointer;
+    outline: none;
     -webkit-transition: 0.2s ease-out;
     -moz-transition: 0.2s ease-out;
     -ms-transition: 0.2s ease-out;
