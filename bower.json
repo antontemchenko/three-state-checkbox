@@ -1,0 +1,23 @@
+{
+  "name": "three-state-checkbox",
+  "version": "1.0.1",
+  "description": "Angular directive of three-state checkbox. Useful for sorting. Default template: 'Material design'",
+  "main": "",
+  "main": "dist/three-state-checkbox.js",
+  "authors": [
+    "@antontemchenko"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "checkbox",
+    "three",
+    "state",
+    "value",
+    "3",
+    "state",
+    "tristate",
+    "angular",
+    "directive"
+  ],
+  "homepage": "https://github.com/antontemchenko/three-state-checkbox"
+}
