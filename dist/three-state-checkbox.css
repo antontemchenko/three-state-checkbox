@@ -8,14 +8,17 @@
     -o-transition: 0.2s ease-out;
     transition: 0.2s ease-out;
     position: relative;
+    vertical-align: top;
+    margin: 0 5px;
 }
 
 .tri-sta-che.checked {
-    -webkit-transform: rotateZ(30deg);
-    -moz-transform: rotateZ(30deg);
-    -ms-transform: rotateZ(30deg);
-    -o-transform: rotateZ(30deg);
-    transform: rotateZ(30deg);
+    transform-origin: 80% 20%;
+    -webkit-transform: rotateZ(38deg);
+    -moz-transform: rotateZ(38deg);
+    -ms-transform: rotateZ(38deg);
+    -o-transform: rotateZ(38deg);
+    transform: rotateZ(38deg);
 }
 
 .tri-sta-che.unchecked {
@@ -27,8 +30,8 @@
 }
 
 .md {
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
 }
 
 .tri-sta-che > .tsc-b {
@@ -90,16 +93,16 @@
     transform: scaleX(0.7);
 }
 .tri-sta-che.unchecked > .tsc-b.tsc-b-l {
-    transform-origin: 100% 9%;
-    transform: rotateZ(-45deg);
+    transform-origin: 111% 0;
+    transform: rotateZ(-45deg);;
 }
 .tri-sta-che.unchecked > .tsc-b.tsc-b-r {
-    transform-origin: 0 95%;
+    transform-origin: 0 90%;
     transform: rotateZ(-45deg);
 }
 .tri-sta-che.unchecked > .tsc-b.tsc-b-t {
-    transform-origin: 100% 100%;
-    transform: rotateZ(0deg);
+    transform-origin: 95% 100%;
+    transform: rotateZ(-45deg);
 }
 .tri-sta-che.unchecked > .tsc-b.tsc-b-b {
     transform-origin: 0 100%;
