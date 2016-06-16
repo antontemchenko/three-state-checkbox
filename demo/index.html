@@ -9,7 +9,7 @@
         <h1>Three state checkbox</h1>
         <div class="container">
             <div three-state-checkbox ng-model="mc.model" ng-change="mc.onChange()" options="{color: 'red'}"></div>
-            {{mc.model}}
+            {{mc.getStringModel()}}
         </div>
         <script type="text/javascript" src="../node_modules/angular/angular.min.js"></script>
         <script type="text/javascript" src="../dist/three-state-checkbox.js"></script>

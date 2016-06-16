@@ -1,4 +1,4 @@
-##Three state checkbox
+##Three-state checkbox
 
 Angular directive of three state checkbox. 
 
@@ -8,30 +8,35 @@ Default template: 'Material design'
 
 ___
 ##[DEMO](http://anton.temchenko.com.ua/dev/three-state-checkbox/demo/)
+
+![three-state checkbox](http://blogjs.github.io/public/three-state-checkbox.png)
+
 ___
 
 ##Getting Started
 
-Installing package via **NPM**
-![npm logo](http://blogjs.github.io/public/npm-logo.png)
+Installing package via **NPM**<br/>
+![npm logo](http://blogjs.github.io/public/npm-logo.png)<br/>
 `npm i angular-three-state-checkbox --save`
 
 ___
 
-Installing package via **Bower** <br/>
-![bower logo](http://blogjs.github.io/public/bower-logo.svg)<br/>
+Installing package via **Bower** <br/><br/>
+![bower logo](http://blogjs.github.io/public/bower-logo.svg)<br/><br/>
 `bower install three-state-checkbox --save`
 
 ___
 
 ##How to use
 
-* Add `three-state-checkbox.js` and `three-state-checkbox.css` to your _index.html_
+* Include `three-state-checkbox.js` and `three-state-checkbox.css` to your _index.html_
 * Add `threeStateCheckbox` as dependency to your angular module
-* Add `three-state-checkbox` as **attribute** to your element _(`<span>`)_
+* Use directive by adding `three-state-checkbox` as **attribute** to your element _(`<span>`)_
 * `ng-model` **is required**
-* You can use `ng-change` directive also
-<!--* Pass your options as Object through `options` attribute-->
+* You can use `ng-change` directive either
+
+<!-- Pass your options as Object through options attribute-->
+___
 
 ##Example 
 

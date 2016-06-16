@@ -9,4 +9,7 @@ angular.module("demoApp", ['threeStateCheckbox'])
         mc.onChange = function(){
             console.log("a");
         };
+        mc.getStringModel = function(){
+            return JSON.stringify(mc.model);
+        }
     }]);
