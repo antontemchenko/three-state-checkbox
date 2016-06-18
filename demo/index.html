@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Three state checkbox</title>
+        <title>Three-state checkbox</title>
         <link rel="stylesheet" href="../dist/three-state-checkbox.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
-    <body ng-app="demoApp" ng-cloak ng-controller="mainCtrl as mc">
-        <h1>Three state checkbox</h1>
+    <body ng-app="demoApp" ng-cloak ng-controller="mainCtrl as mc" ng-cloak>
+        <h1>Three-state checkbox</h1>
         <div class="container">
             <div three-state-checkbox ng-model="mc.model" ng-change="mc.onChange()" options="{color: 'red'}"></div>
             {{mc.getStringModel()}}

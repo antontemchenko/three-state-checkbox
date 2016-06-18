@@ -52,3 +52,9 @@ ___
     <body ng-app="myApp" ng-controller="myCtrl as mc">
         <span three-state-checkbox ng-model="mc.checkboxModel" ng-change="mc.onChange()"></span>
     </body>
+    
+___
+
+## License
+
+[MIT](/LICENSE)

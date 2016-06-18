@@ -1,6 +1,6 @@
 {
   "name": "angular-three-state-checkbox",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Angular directive of three-state checkbox. Useful for sorting. Default template: 'Material design'",
   "repository": {
     "type": "git",

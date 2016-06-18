@@ -85,9 +85,9 @@
     opacity:.5;
 }
 .tri-sta-che.checked > .tsc-b.tsc-b-l {
-    transform-origin: 100% 100%;
-    transform: rotateZ(90deg) scaleY(0.6) translateY(-25%);
-    opacity:.5;
+    transform-origin: 350% 34%;
+    transform: rotateZ(-90deg) scaleY(0.6) translateY(-25%);
+    opacity: .5;
 }
 .tri-sta-che.checked > .tsc-b.tsc-b-b {
     transform-origin: 100% 100%;
