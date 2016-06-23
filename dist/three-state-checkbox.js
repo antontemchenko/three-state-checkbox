@@ -6,9 +6,7 @@ angular.module("threeStateCheckbox", [])
             transclude: true,
             require: 'ngModel',
             scope: {
-                'options': "@options",
-                'ngChange': "&ngChange",
-                'ngModel': "=ngModel"
+                'options': "@options"
             },
             template:'<span class="tsc-b tsc-b-t"></span>'+
             '<span class="tsc-b tsc-b-l"></span>'+
@@ -21,7 +19,7 @@ angular.module("threeStateCheckbox", [])
                 scope.click = function(){
                     var st;
                     states.map(function(val, i){
-                        if(scope.ngModel === val){
+                        if(ngModel.$modelValue === val){
                             st = states[(i+1)%3];
                         }
                     });
@@ -31,7 +29,7 @@ angular.module("threeStateCheckbox", [])
                 scope.tscClassName = function(){
                     var className;
                     states.map(function(val, i){
-                        if(scope.ngModel === val){
+                        if(ngModel.$modelValue=== val){
                             className = classNames[i];
                         }
                     });
