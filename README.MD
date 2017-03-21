@@ -1,4 +1,4 @@
-##Three-state checkbox
+## Three-state checkbox
 
 Angular directive of three state checkbox. 
 
@@ -7,13 +7,14 @@ Useful for sorting.
 Default template: 'Material design'
 
 ___
-##[DEMO](http://anton.temchenko.com.ua/dev/three-state-checkbox/demo/)
+
+## [DEMO](http://anton.temchenko.com.ua/dev/three-state-checkbox/demo/)
 
 ![three-state checkbox](http://blogjs.github.io/public/three-state-checkbox.png)
 
 ___
 
-##Getting Started
+## Getting Started
 
 Installing package via **NPM**<br/>
 ![npm logo](http://blogjs.github.io/public/npm-logo.png)<br/>
@@ -27,7 +28,7 @@ Installing package via **Bower** <br/><br/>
 
 ___
 
-##How to use
+## How to use
 
 * Include `three-state-checkbox.js` and `three-state-checkbox.css` to your _index.html_
 * Add `threeStateCheckbox` as dependency to your angular module
@@ -38,7 +39,7 @@ ___
 <!-- Pass your options as Object through options attribute-->
 ___
 
-##Example 
+## Example 
 
     angular.module("myApp", ["threeStateCheckbox"])
         .controller("myCtrl",[function(){
