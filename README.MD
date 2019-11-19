@@ -8,9 +8,9 @@ Default template: 'Material design'
 
 ___
 
-## [DEMO](http://anton.temchenko.com.ua/dev/three-state-checkbox/demo/)
+## [DEMO](http://antontemchenko.github.io/three-state-checkbox/)
 
-![three-state checkbox](http://antontemchenko.github.io/three-state-checkbox/)
+[![three-state-checkbox](https://camo.githubusercontent.com/d37cde77fd546f62119ccb00dfe3015f6a465768/687474703a2f2f626c6f676a732e6769746875622e696f2f7075626c69632f74687265652d73746174652d636865636b626f782e706e67)](http://antontemchenko.github.io/three-state-checkbox/)
 
 ___
 
