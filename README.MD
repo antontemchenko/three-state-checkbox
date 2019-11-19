@@ -10,7 +10,7 @@ ___
 
 ## [DEMO](http://anton.temchenko.com.ua/dev/three-state-checkbox/demo/)
 
-![three-state checkbox](http://blogjs.github.io/public/three-state-checkbox.png)
+![three-state checkbox](http://antontemchenko.github.io/three-state-checkbox/)
 
 ___
 
